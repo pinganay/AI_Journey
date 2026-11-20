@@ -15,6 +15,9 @@ Hi, I am Anay Sahu. These are all of the projects I have worked on related to AI
 
 ## uv Toolchain
 
+Instead of pip, I started using *uv toolchain*. It is way faster, and is helpful for creating default files for programming projects, like a `README.md` file and others to keep track of package requirements. 
+To start using uv, follow these steps:
+
 1. To install uv package manager: `curl -LsSf https://astral.sh/uv/install.sh | sh`
     * *Alternatively, use: `pip install uv`*
 2. Create a project: `uv init`
