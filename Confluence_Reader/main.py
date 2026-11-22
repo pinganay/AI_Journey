@@ -13,9 +13,7 @@ llm = ChatGroq(model="openai/gpt-oss-120b", api_key=api_key)
 
 pipeline = RAG_Pipeline()
 
-space_key = "SOS"
-page_title_prefix = "DevOps"
-#page_title = "DevOps: Production Change History"
+
 
 documents = pipeline.readConfluencePagesByTitlePrefix(space_key, page_title_prefix)
 
